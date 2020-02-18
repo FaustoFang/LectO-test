@@ -1,0 +1,19 @@
+.logo {
+  max-width: 750px;
+  width: auto;
+  height: auto;
+  text-align: center;
+  margin-top: 25px;
+  margin-left: 10%;
+}
+
+.logo-background {
+  padding: 75px 0 50px 0;
+  background-color: rgb(175, 174, 219);
+  height: calc(100%);
+}
+
+html, body{
+  height: 100%;
+  margin: 0;
+}
