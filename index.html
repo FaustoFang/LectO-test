@@ -3,90 +3,198 @@
 
 <head>
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <title>LectO</title>
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="css/modern-business.css" rel="stylesheet">
+	<title>LectO</title>
+	<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/modern-business.css" rel="stylesheet">
 
 </head>
-<body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
-        <div class="container">
-            <a class="navbar-brand js-scroll-trigger" href="#page-top">LectO</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-                 <a class="nav-link js-scroll-trigger" href="#home">Inicio</a>
-             </li>
-              <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="#work">Como Funciona</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="#us">Sobre Nosotros</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="#contact">Contacto</a>
-              </li>
-            </ul>
-          </div>
-       </div>
-    </nav>
 
-    <section id="home">
-        <div class="logo-background">
-            <img src="images/logo.png" class="logo" alt="LectO">
-            <div style="margin: 30px calc(10% + 15px) 0 calc(10% + 15px); text-align: justify;">
-                <h3>Un procesador de texto, como Word, pensado especialmente para personas con dislexia. </h3>
-            </div>
-        </div>
-    </section>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+	<div class="logo-background">
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+			<div class="container">
+				<a class="navbar-brand js-scroll-trigger" href="#page-top">LectO</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+					aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarResponsive">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item">
+							<a class="nav-link js-scroll-trigger" href="#home">Inicio</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link js-scroll-trigger" href="#how">Cómo funciona</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link js-scroll-trigger" href="#us">Sobre nosotros</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link js-scroll-trigger" href="#contact">Contacto</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<section id="home">
+			<div class="logo-background">
+				<img src="images/logo.png" class="logo" alt="LectO">
+				<div style="margin: 5px calc(10% + 15px) 0 calc(10% + 15px);">
+					<h3 class="display-4 texto">Un editor de texto, como Word, pensado especialmente para personas con dislexia. </h3>
+					<a class="btn btn-primary btn-lg" href="#how" style="margin-top: 30px;">
+						¿Cómo funciona?
+					</a>
+				</div>
+			</div>
+		</section>
+	</div>
+
+	<section id="how">
+		<div class="container">
+			<h3 class="subtitle">¿De que se trata?</h3>
+			<p>Lecto es una aplicación que busca facilitar la lectura y escritura en personas con dislexia, mediante un
+				conjunto de herramientas que permite acelerar el proceso de lectura, comprensión, y también de escritura.
+				Además, cuenta con las mismas facilidades que cualquier editor de texto corriente al cual ya estamos
+				acostumbrados a usar.</p>
+			<h3 class="subtitle">Características de la Aplicación:</h3>
+		</div>
+		<div id="my-carousel" class="carousel slide" data-ride="carousel">
+			<ol class="carousel-indicators">
+				<li class="active" data-target="#my-carousel" data-slide-to="0" aria-current="location"></li>
+				<li data-target="#my-carousel" data-slide-to="1"></li>
+				<li data-target="#my-carousel" data-slide-to="2"></li>
+				<li data-target="#my-carousel" data-slide-to="3"></li>
+				<li data-target="#my-carousel" data-slide-to="4"></li>
+				<li data-target="#my-carousel" data-slide-to="5"></li>
+			</ol>
+			<div class="carousel-inner">
+				<div class="carousel-item active" style="background-image: url('http://placehold.it/1900x1080')">
+					<img class="d-block w-100" src="" alt="">
+					<div class="carousel-caption d-block">
+						<h4>Fuente Especial</h4>
+						<p>Text</p>
+					</div>
+				</div>
+				<div class="carousel-item" style="background-image: url('http://placehold.it/1900x1080')">
+					<img class="d-block w-100" src="" alt="">
+					<div class="carousel-caption d-block">
+						<h4>Color por Letra</h4>
+						<p>Text</p>
+					</div>
+				</div>
+				<div class="carousel-item" style="background-image: url('http://placehold.it/1900x1080')">
+					<img class="d-block w-100" src="" alt="">
+					<div class="carousel-caption d-block">
+						<h4>Foto por Palabra</h4>
+						<p>Text</p>
+					</div>
+				</div>
+				<div class="carousel-item" style="background-image: url('http://placehold.it/1900x1080')">
+					<img class="d-block w-100" src="" alt="">
+					<div class="carousel-caption d-block">
+						<h4>Lectura en Voz Alta</h4>
+						<p>Text</p>
+					</div>
+				</div>
+				<div class="carousel-item" style="background-image: url('http://placehold.it/1900x1080')">
+					<img class="d-block w-100" src="" alt="">
+					<div class="carousel-caption d-block">
+						<h4>Detección de Texto Físico</h4>
+						<p>Text</p>
+					</div>
+				</div>
+				<div class="carousel-item" style="background-image: url('http://placehold.it/1900x1080')">
+					<img class="d-block w-100" src="" alt="">
+					<div class="carousel-caption d-block">
+						<h4>Compatibilidad de Formatos</h4>
+						<p>Text</p>
+					</div>
+				</div>
+			</div>
+			<a class="carousel-control-prev" href="#my-carousel" data-slide="prev" role="button">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="carousel-control-next" href="#my-carousel" data-slide="next" role="button">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
+		</div>
+	</section>
 
 
-    <div class="container">
-        <section id="work">
+	<section id="us" class="subtitle">
+		<div class="container">
+			<h3 style="margin-bottom: 25px;">Sobre Nosotros</h3>
+			<p>Somos un grupo de 4 amigos de 16 años, alumnos del colegio ORT. Empezamos este proyecto con un objetivo
+				bien
+				definido, pero no muy claro a la vez: desarrollar una app que afectase positivamente a la sociedad. Tras
+				pensar
+				y evaluar muchas ideas, finalmente nos decidimos a trabajar con la dislexia y dimos lugar a lo que es
+				LectO hoy
+				en día.</p>
+			<p>Nos apasionan la ciencia y la tecnología, y creemos en sus aplicaciones en la vida cotidiana para hacer
+				del
+				mundo un lugar mejor. En base a estos principios nace LectO: buscando ayudar a construir una sociedad
+				más
+				inclusiva donde tener una dificultad o discapacidad no sea un impedimento, y utilizando a la tecnología
+				como una
+				herramienta fundamental en este proceso. </p>
+			<p>Creemos que ser jóvenes no tiene por qué ser un impedimento para tomar un rol en los avances tecnológicos
+				que
+				estamos viviendo, emprender y cambiar lo que nos incomoda de la sociedad. Actualmente, el 40% del
+				abandono
+				escolar se debe a la dislexia, y eso nos incomoda. Ante esta problemática, elegimos ponernos manos a la
+				obra y
+				plantear una solución, LectO.</p>
+			<div class="card-deck">
+				<div class="card">
+					<img class="card-img-top" src="images/perfil_lisandro.jpg" alt="Card image">
+					<div class="card-body">
+						<h4 class="card-title">Lisandro</h4>
+						<p class="card-text">Back-end developer & project manager</p>
+					</div>
+				</div>
+				<div class="card">
+					<img class="card-img-top" src="images/perfil_ulises.jpg" alt="Card image">
+					<div class="card-body">
+						<h4 class="card-title">Ulises</h4>
+						<p class="card-text">Back-end developer</p>
+					</div>
+				</div>
+				<div class="card">
+					<img class="card-img-top" src="images/perfil_fausto.jpg" alt="Card image">
+					<div class="card-body">
+						<h4 class="card-title">Fausto</h4>
+						<p class="card-text">Front-end developer</p>
+					</div>
+				</div>
+				<div class="card">
+					<img class="card-img-top" src="images/perfil_nicolas.jpg" alt="Card image">
+					<div class="card-body">
+						<h4 class="card-title">Nicolás</h4>
+						<p class="card-text">Hardware developer</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<section id="contact">
+		<div class="container">
+			<h3 class="subtitle">Contactate con Nosotros</h3>
+			<p>Email</p>
+			<p>Teléfono</p>
+			<p>Instagram</p>
+			<p>Facebook</p>
+		</div>
+	</section>
 
-        </section>
-        <section id="us">
-            <div class="card-deck">
-            <div class="card">
-                <img class="card-img-top" alt="Card image">
-                <div class="card-body">
-                  <h4 class="card-title">John Doe</h4>
-                  <p class="card-text">Some example text.</p>
-                </div>
-            </div>
-            <div class="card">
-                <img class="card-img-top" alt="Card image">
-                <div class="card-body">
-                  <h4 class="card-title">John Doe</h4>
-                  <p class="card-text">Some example text.</p>
-                </div>
-            </div>
-            <div class="card">
-                <img class="card-img-top" alt="Card image">
-                <div class="card-body">
-                  <h4 class="card-title">John Doe</h4>
-                  <p class="card-text">Some example text.</p>
-                </div>
-            </div>
-            <div class="card">
-                <img class="card-img-top" alt="Card image">
-                <div class="card-body">
-                  <h4 class="card-title">John Doe</h4>
-                  <p class="card-text">Some example text.</p>
-                </div>
-            </div>
-            </div>
-        </section>
-    </div>
-
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
+	<script src="vendor/jquery/jquery.min.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
 </body>
