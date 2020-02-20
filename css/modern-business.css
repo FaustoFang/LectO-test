@@ -40,3 +40,9 @@ html, body{
   height: 100%;
   margin: 0;
 }
+
+.footer-text {
+  text-align: center;
+  font-size: medium;
+  color: white;
+}
