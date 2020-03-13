@@ -46,3 +46,21 @@ html, body{
   font-size: medium;
   color: white;
 }
+
+.beta-background {
+  background-color: rgb(175, 174, 219);
+}
+
+.beta-title {
+  padding: 75px 0 75px 0;
+  text-align: center;
+}
+
+.beta-text {
+  margin-top: 50px;  
+  margin-bottom: 0px ;
+}
+
+li {
+  font-size: 18px;
+}
