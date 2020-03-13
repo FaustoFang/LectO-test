@@ -64,3 +64,59 @@ html, body{
 li {
   font-size: 18px;
 }
+
+@media (max-width: 720px) {
+  .image-font{
+    background-image: url('../images/fontSM.png'); 
+    background-size: contain;
+  }
+  .gif-fpp{
+    background-size: 40vh;
+  }
+  .tts{
+    background-image: url('../images/ttsSM.png'); 
+    background-size: contain;
+  }
+  .ocr{
+    background-image: url('../images/ocrSM.jpg');
+  }
+  .word{
+    background-image: url('../images/wordlogoSM.png');
+  }
+}
+
+@media (min-width: 721px) {
+  .image-font{
+    background-image: url('../images/fontMD.png'); 
+    background-size: contain;
+  }
+  .gif-fpp{
+    background-size: 50vh;
+  }
+  .tts{
+    background-image: url('../images/ttsMD.png');
+    background-size: contain;
+  }
+  .ocr{
+    background-image: url('../images/ocrMD.jpg');
+  }
+  .word{
+    background-image: url('../images/wordlogo.png');
+  }
+}
+
+@media (min-width: 960px) {
+  .image-font{
+    background-image: url('../images/fontBG.png'); 
+    background-size: contain;
+  }
+  .gif-fpp{
+    background-size: 60vh;
+  }
+  .tts{
+    background-image: url('../images/ttsBG.png'); 
+    background-size: contain;
+  }
+  .ocr{
+    background-image: url('../images/ocrBG2.jpg');
+  }
